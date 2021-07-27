@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Error message for invalid email is:]]>
+    </line>
+    <line>
+      <![CDATA[Enter a valid email or phone number]]>
+    </line>
+    <line>
+      <![CDATA[Sports available for this weekend:]]>
+    </line>
+    <line>
+      <![CDATA[All available languages are:]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-26T22:15:58 IST" name="Suite" finished-at="2021-07-26T22:17:19 IST" duration-ms="80198">
+    <groups>
+      <group name="Regression">
+        <method signature="SportsSearchSuite.movieSearchSuite()[pri:1, instance:com.bookmyshow.in.SportsSearchSuite@443118b0]" name="movieSearchSuite" class="com.bookmyshow.in.SportsSearchSuite"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="SportsSearchSuite.searchSuite()[pri:0, instance:com.bookmyshow.in.SportsSearchSuite@443118b0]" name="searchSuite" class="com.bookmyshow.in.SportsSearchSuite"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-07-26T22:15:58 IST" name="Test" finished-at="2021-07-26T22:17:19 IST" duration-ms="80198">
+      <class name="com.bookmyshow.in.SportsSearchSuite">
+        <test-method is-config="true" signature="launchBrowserAndLoadURL()[pri:0, instance:com.bookmyshow.in.SportsSearchSuite@443118b0]" started-at="2021-07-26T22:15:58 IST" name="launchBrowserAndLoadURL" finished-at="2021-07-26T22:16:13 IST" duration-ms="14613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndLoadURL -->
+        <test-method signature="searchSuite()[pri:0, instance:com.bookmyshow.in.SportsSearchSuite@443118b0]" started-at="2021-07-26T22:16:13 IST" name="searchSuite" finished-at="2021-07-26T22:17:02 IST" duration-ms="48520" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message for invalid email is:]]>
+            </line>
+            <line>
+              <![CDATA[Enter a valid email or phone number]]>
+            </line>
+            <line>
+              <![CDATA[Sports available for this weekend:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchSuite -->
+        <test-method signature="movieSearchSuite()[pri:1, instance:com.bookmyshow.in.SportsSearchSuite@443118b0]" started-at="2021-07-26T22:17:02 IST" name="movieSearchSuite" finished-at="2021-07-26T22:17:18 IST" duration-ms="16682" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[All available languages are:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- movieSearchSuite -->
+        <test-method is-config="true" signature="closeSuite()[pri:0, instance:com.bookmyshow.in.SportsSearchSuite@443118b0]" started-at="2021-07-26T22:17:18 IST" name="closeSuite" finished-at="2021-07-26T22:17:19 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuite -->
+      </class> <!-- com.bookmyshow.in.SportsSearchSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
